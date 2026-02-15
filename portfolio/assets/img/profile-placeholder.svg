@@ -1,0 +1,28 @@
+<svg width="720" height="960" viewBox="0 0 720 960" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Profile Placeholder</title>
+  <desc id="desc">A blue and white illustrated placeholder portrait card.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="960" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF5FF"/>
+      <stop offset="1" stop-color="#C9E4FF"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="360" y1="480" x2="360" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E7F1FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="960" rx="36" fill="url(#bg)"/>
+  <path d="M0 200H720" stroke="#B7D8FF" stroke-width="2"/>
+  <path d="M0 420H720" stroke="#B7D8FF" stroke-width="2"/>
+  <path d="M0 640H720" stroke="#B7D8FF" stroke-width="2"/>
+  <path d="M180 0V960" stroke="#B7D8FF" stroke-width="2"/>
+  <path d="M360 0V960" stroke="#B7D8FF" stroke-width="2"/>
+  <path d="M540 0V960" stroke="#B7D8FF" stroke-width="2"/>
+
+  <ellipse cx="360" cy="370" rx="168" ry="192" fill="#5BA5EA"/>
+  <circle cx="360" cy="320" r="96" fill="#F8FCFF"/>
+  <path d="M264 360C282 398 312 420 360 420C408 420 438 398 456 360V372C456 430 412 478 360 478C308 478 264 430 264 372V360Z" fill="#D7EAFF"/>
+  <path d="M190 860C202 680 266 560 360 560C454 560 518 680 530 860H190Z" fill="url(#shirt)"/>
+  <rect x="252" y="580" width="216" height="44" rx="22" fill="#0065C1"/>
+  <text x="360" y="610" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">YOUR PHOTO</text>
+</svg>

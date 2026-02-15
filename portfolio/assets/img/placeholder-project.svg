@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Project Placeholder</title>
+  <desc id="desc">Simple placeholder banner for portfolio project card.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e8efe8" />
+      <stop offset="100%" stop-color="#d5e2d8" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)" />
+  <g fill="none" stroke="#8ea79a" stroke-width="3" opacity="0.8">
+    <rect x="56" y="56" width="848" height="428" rx="18" />
+    <path d="M56 146h848" />
+    <circle cx="96" cy="102" r="9" />
+    <circle cx="126" cy="102" r="9" />
+    <circle cx="156" cy="102" r="9" />
+  </g>
+  <text x="480" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" fill="#334744">
+    Project Preview
+  </text>
+</svg>
