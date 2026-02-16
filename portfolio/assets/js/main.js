@@ -467,12 +467,21 @@
         track.className = "project-track";
         track.textContent = "● " + (project.track || "Frontend");
 
-        const visual = document.createElement("div");
-        visual.className = "project-visual";
-        visual.innerHTML =
-          '<span class="project-graph project-graph-1"></span><span class="project-graph project-graph-2"></span><span class="project-ring"></span><span class="project-percent">39%</span>';
-
-        media.append(track, visual);
+        if (project.image) {
+          media.classList.add("has-image");
+          const image = document.createElement("img");
+          image.className = "project-image";
+          image.src = project.image;
+          image.alt = project.imageAlt || project.title;
+          image.loading = "lazy";
+          media.append(track, image);
+        } else {
+          const visual = document.createElement("div");
+          visual.className = "project-visual";
+          visual.innerHTML =
+            '<span class="project-graph project-graph-1"></span><span class="project-graph project-graph-2"></span><span class="project-ring"></span><span class="project-percent">39%</span>';
+          media.append(track, visual);
+        }
 
         const body = document.createElement("div");
         body.className = "project-body";

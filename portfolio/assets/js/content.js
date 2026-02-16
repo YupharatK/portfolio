@@ -1,9 +1,9 @@
 window.siteContent = {
   profile: {
     name: "YUPHARAT",
-    role: "Frontend Developer",
-    intro: "พัฒนาเว็บไซต์ที่สวย ใช้งานง่าย และสื่อสารแบรนด์ได้ชัดเจน",
-    location: "เชียงใหม่, ประเทศไทย",
+    role: "Fullstack Developer",
+    intro: "อยากเรียนรู้การเขียนเว็บให้สวยและใช้งานได้ดี",
+    location: "มหาสารคาม, ประเทศไทย",
     about:
       "ฉันสนใจการออกแบบประสบการณ์ผู้ใช้และการพัฒนาเว็บที่สมดุลทั้งด้านดีไซน์และประสิทธิภาพ โดยเน้นงานที่ดูสะอาด อ่านง่าย และรองรับการใช้งานบนทุกอุปกรณ์"
   },
@@ -12,67 +12,63 @@ window.siteContent = {
     secondaryCtaLabel: "ติดต่อ"
   },
   aboutSection: {
-    hello: "About Me",
-    mark: "YP",
+    hello: "เกี่ยวกับฉัน",
+    mark: "ยุพารัตน์ ขวกเขียว",
     photo: {
       src: "assets/img/proflie.jpg",
       alt: "รูปโปรไฟล์ของ YUPHARAT"
     },
     bio:
-      "ฉันชื่อยูพารัตน์ เป็นนักพัฒนาเว็บสาย Frontend ที่ชอบงานดีไซน์แบบสะอาดและเป็นระบบ สนใจการสร้างประสบการณ์ใช้งานที่ชัดเจนตั้งแต่โครงสร้างเนื้อหา ไปจนถึง motion เล็กๆ ที่ทำให้เว็บดูมีชีวิตและใช้งานได้ลื่นไหลบนทุกอุปกรณ์",
+      "สวัสดีค่ะ ชื่อจริง ยุพารัตน์ ขวกเขียว ชื่อเล่น ปาล์ม อายุ 22 ปี จุดเริ่มต้นของดิฉันคือความสงสัยว่าเว็บหนึ่งหน้ามันทำงานยังไง จนกลายมาเป็นความชอบใน Fullstack Development ดิฉันสนุกกับการได้เขียนหน้าบ้านให้สวยและวางระบบหลังบ้านให้ดี ในตอนนี้อาจจะยังไม่ได้เก่งมากแต่มีความอยากที่จะพัฒนาฝีมือเพื่อให้ได้เขียนเว็บที่มีคุณภาพมากขึ้นค่ะ",
     education: [
       {
-        period: "2020 - 2024",
-        title: "มหาวิทยาลัยตัวอย่าง, เชียงใหม่",
-        detail: "สาขาวิทยาการคอมพิวเตอร์ (Computer Science)"
+        period: "2022 - 2026",
+        title: "มหาวิทยาลัยมหาสารคาม",
+        detail: "คณะวิทยาการสารสนเทศ สาขาวิทยาการคอมพิวเตอร์ (Computer Science)"
       }
     ],
     technicalSkills: [
-      "Responsive Layout ด้วย CSS Grid/Flex",
-      "Vanilla JavaScript และ DOM Interaction",
-      "Accessibility และโครงสร้าง Semantic HTML",
-      "UI Motion แบบ Smooth + Performance Friendly",
-      "Figma to Pixel-Perfect Frontend"
+      "HTML5(พื้นฐาน)",
+      "CSS(พื้นฐาน)",
+      "JavaScript(พื้นฐาน)",
+      "Angular(พื้นฐาน)",
+      "React(พื้นฐาน)",
+      "Flutter(พื้นฐาน)",
+      "Node.js(พื้นฐาน)",
+      "PHP(พื้นฐาน)",
+      "MySQL(พื้นฐาน)",
+      "python(พื้นฐาน)"
     ],
     toolsTechnologies: [
-      "HTML5",
-      "CSS3 / SCSS",
-      "JavaScript (ES6+)",
       "Git & GitHub",
       "Figma",
-      "Netlify"
+      "VS Code",
+      "Postman"
     ],
     dropTags: ["HTML", "CSS", "JavaScript", "Angular", "React", "Flutter", "Node.js", "MySQL"],
-    languages: ["ไทย (เจ้าของภาษา)", "อังกฤษ (สื่อสารได้ดี)"]
   },
-  skills: [
-    { name: "HTML5", level: 92 },
-    { name: "CSS3 / Responsive Design", level: 90 },
-    { name: "JavaScript (ES6+)", level: 84 },
-    { name: "Figma to Code", level: 80 },
-    { name: "Accessibility", level: 78 },
-    { name: "Performance Optimization", level: 74 }
-  ],
+  
   projects: [
     {
       category: "ผลงานในชั้นเรียน",
-      track: "Frontend",
-      title: "Aether Dashboard",
+      track: "Fullstack",
+      title: "Game Shop",
       summary:
-        "โปรเจกต์ในชั้นเรียนที่ออกแบบหน้า dashboard เน้น data visualization, การจัดลำดับข้อมูล และ responsive layout",
-      tech: ["HTML", "CSS", "JavaScript", "Chart.js"],
-      demoUrl: "https://example.com/demo-1",
-      repoUrl: "https://github.com/yourusername/project-1",
-      imageAlt: "ภาพตัวอย่างโปรเจกต์ 1"
+        "โปรเจกต์เว็บ Game Shop ที่พัฒนาโดยใช้ Angular สำหรับ frontend และ Node.js กับ MySQL สำหรับ backend ",
+      tech: ["Angular", "Node.js", "MySQL"],
+      image: "assets/img/GameShop.png",
+      demoUrl: "https://gameshopv2.netlify.app",
+      repoUrl: "https://github.com/YupharatK/Game-Shop.git",
+      imageAlt: "ภาพหน้าจอโปรเจกต์ Game Shop"
     },
     {
       category: "ผลงานในชั้นเรียน",
-      track: "Frontend",
-      title: "ระบบจองห้องเรียน",
+      track: "Fullstack",
+      title: "Pizza Shop",
       summary:
-        "พัฒนาเว็บจองห้องเรียนสำหรับงานกลุ่มในรายวิชา โดยโฟกัสที่ flow การใช้งานและการ validate ฟอร์ม",
+        "พัฒนาเว็บสั่งพิซซ่าสำหรับงานกลุ่มในรายวิชา",
       tech: ["HTML", "CSS Grid", "Vanilla JS", "LocalStorage"],
-      demoUrl: "https://example.com/demo-2",
+      image: "assets/img/pizzashop.png",
       repoUrl: "https://github.com/yourusername/project-2",
       imageAlt: "ภาพตัวอย่างโปรเจกต์ 2"
     },
@@ -83,6 +79,7 @@ window.siteContent = {
       summary:
         "ฝึกแปลงดีไซน์จากไฟล์อ้างอิงให้เป็นเว็บจริง โดยเน้นโครงสร้าง semantic และ animation ที่ลื่นไหล",
       tech: ["Semantic HTML", "CSS", "JavaScript", "GSAP"],
+      image: "assets/img/placeholder-project.svg",
       demoUrl: "https://example.com/demo-3",
       repoUrl: "https://github.com/yourusername/project-3",
       imageAlt: "ภาพตัวอย่างโปรเจกต์ 3"
@@ -94,39 +91,20 @@ window.siteContent = {
       summary:
         "โปรเจกต์ฝึกเขียนเพื่อทดลองเชื่อมต่อ frontend กับ backend เบื้องต้น พร้อมระบบจัดการโน้ตอย่างง่าย",
       tech: ["React", "Node.js", "Express", "MySQL"],
+      image: "assets/img/placeholder-project.svg",
       demoUrl: "https://example.com/demo-4",
       repoUrl: "https://github.com/yourusername/project-4",
       imageAlt: "ภาพตัวอย่างโปรเจกต์ 4"
     }
   ],
-  experience: [
-    {
-      period: "2025 - ปัจจุบัน",
-      title: "Frontend Developer (Freelance)",
-      org: "งานโปรเจกต์อิสระ",
-      details: "พัฒนาเว็บไซต์ธุรกิจขนาดเล็กถึงกลาง ตั้งแต่เลย์เอาต์จนถึงการเตรียมพร้อม deploy"
-    },
-    {
-      period: "2024 - 2025",
-      title: "Web Design Intern",
-      org: "Creative Digital Studio",
-      details: "ร่วมออกแบบ UI และแปลงดีไซน์เป็นหน้าเว็บจริง โดยเน้นความสม่ำเสมอของดีไซน์ระบบ"
-    },
-    {
-      period: "2023 - 2024",
-      title: "Self-Directed Projects",
-      org: "Portfolio Lab",
-      details: "สร้างโปรเจกต์ฝึกฝนหลายประเภทเพื่อพัฒนาทักษะด้าน responsive, accessibility และ performance"
-    }
-  ],
+  
   contact: {
-    email: "yupharat@example.com",
-    phone: "+66 89-000-0000",
+    email: "yupharatkhuakkiao04@gmail.com",
+    phone: "+66 65-329-6746",
+    line: "yupharat_47",
     social: [
-      { label: "Instagram", url: "https://instagram.com/yourusername" },
-      { label: "Facebook", url: "https://facebook.com/yourusername" },
-      { label: "Line", url: "https://line.me/ti/p/~yourlineid" },
-      { label: "GitHub", url: "https://github.com/yourusername" }
+      { label: "Facebook", url: "https://www.facebook.com/share/1CK4fJYCKh/?mibextid=wwXIfr" },
+      { label: "GitHub", url: "https://github.com/YupharatK" }
     ]
   }
 };
