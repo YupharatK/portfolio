@@ -15,7 +15,7 @@ window.siteContent = {
     hello: "เกี่ยวกับฉัน",
     mark: "ยุพารัตน์ ขวกเขียว",
     photo: {
-      src: "assets/img/proflie.jpg",
+      src: "assets/img/proflie.png",
       alt: "รูปโปรไฟล์ของ YUPHARAT"
     },
     bio:
@@ -115,25 +115,13 @@ window.siteContent = {
     {
       category: "ผลงานที่ฝึกเขียน",
       track: "Frontend",
-      title: "Landing Page ฝึกเขียนโค้ด",
+      title: "Flashcard",
       summary:
-        "ฝึกแปลงดีไซน์จากไฟล์อ้างอิงให้เป็นเว็บจริง โดยเน้นโครงสร้าง semantic และ animation ที่ลื่นไหล",
-      tech: ["Node.js", "mySQL"],
-      image: "assets/img/placeholder-project.svg",
-      demoUrl: "https://example.com/demo-3",
-      repoUrl: "https://github.com/yourusername/project-3",
-      imageAlt: "ภาพตัวอย่างโปรเจกต์ 3"
-    },
-    {
-      category: "ผลงานที่ฝึกเขียน",
-      track: "Frontend",
-      title: "Mini Fullstack Notes App",
-      summary:
-        "โปรเจกต์ฝึกเขียนเพื่อทดลองเชื่อมต่อ frontend กับ backend เบื้องต้น พร้อมระบบจัดการโน้ตอย่างง่าย",
-      tech: ["React", "Node.js", "Express", "MySQL"],
-      image: "assets/img/placeholder-project.svg",
-      demoUrl: "https://example.com/demo-4",
-      repoUrl: "https://github.com/yourusername/project-4",
+        "โปรเจกต์ฝึกเขียน Flashcard ที่ใช้ React โดยจะมีฟีเจอร์การเพิ่ม แก้ไข และลบการ์ด รวมถึงการจัดหมวดหมู่การ์ดเพื่อการเรียนรู้ทีและเกมการ์ดเพื่อความสนุกในการทบทวนความรู้",
+      tech: ["React"],
+      image: "assets/img/f.png",
+      demoUrl: "https://flashcardv1.netlify.app/",
+      repoUrl: "https://github.com/YupharatK/flashcard.git",
       imageAlt: "ภาพตัวอย่างโปรเจกต์ 4"
     }
   ],
