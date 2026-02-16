@@ -504,22 +504,41 @@
         const links = document.createElement("div");
         links.className = "project-links";
 
-        const demo = document.createElement("a");
-        demo.className = "project-btn project-btn-primary";
-        demo.href = project.demoUrl;
-        demo.target = "_blank";
-        demo.rel = "noreferrer";
-        demo.textContent = "Live Demo →";
+        const linkButtons = [];
+        const hasDemo = typeof project.demoUrl === "string" && project.demoUrl.trim() && project.demoUrl.trim() !== "#";
+        const repoLinks = getProjectRepoLinks(project);
 
-        const repo = document.createElement("a");
-        repo.className = "project-btn project-btn-ghost";
-        repo.href = project.repoUrl;
-        repo.target = "_blank";
-        repo.rel = "noreferrer";
-        repo.textContent = "GitHub";
+        if (hasDemo) {
+          const demo = document.createElement("a");
+          demo.className = "project-btn project-btn-primary";
+          demo.href = project.demoUrl;
+          demo.target = "_blank";
+          demo.rel = "noreferrer";
+          demo.textContent = "Live Demo →";
+          linkButtons.push(demo);
+        }
 
-        links.append(demo, repo);
-        body.append(title, summary, techList, links);
+        repoLinks.forEach((repoItem) => {
+          const repo = document.createElement("a");
+          repo.className = "project-btn project-btn-ghost";
+          repo.href = repoItem.url;
+          repo.target = "_blank";
+          repo.rel = "noreferrer";
+          repo.textContent = repoItem.label;
+          linkButtons.push(repo);
+        });
+
+        if (linkButtons.length === 1) {
+          links.classList.add("is-single");
+        }
+        if (linkButtons.length > 0) {
+          links.append(...linkButtons);
+        }
+
+        body.append(title, summary, techList);
+        if (linkButtons.length > 0) {
+          body.append(links);
+        }
         article.append(media, body);
 
         root.appendChild(article);
@@ -533,6 +552,39 @@
 
     renderFilters();
     renderCards();
+  }
+
+  function getProjectRepoLinks(project) {
+    const links = [];
+    const pushIfValid = (url, label) => {
+      if (typeof url !== "string") {
+        return;
+      }
+      const cleanUrl = url.trim();
+      if (!cleanUrl || cleanUrl === "#") {
+        return;
+      }
+      links.push({ url: cleanUrl, label });
+    };
+
+    if (Array.isArray(project.repoUrls)) {
+      project.repoUrls.forEach((item, index) => {
+        if (!item || typeof item !== "object") {
+          return;
+        }
+        pushIfValid(item.url, item.label || "GitHub " + (index + 1));
+      });
+      return links;
+    }
+
+    pushIfValid(project.frontendRepoUrl, "GitHub Frontend");
+    pushIfValid(project.backendRepoUrl, "GitHub Backend");
+
+    if (!links.length) {
+      pushIfValid(project.repoUrl, "GitHub");
+    }
+
+    return links;
   }
 
   function renderSocial(items, root) {

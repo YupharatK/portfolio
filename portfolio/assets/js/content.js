@@ -54,12 +54,27 @@ window.siteContent = {
       track: "Fullstack",
       title: "Game Shop",
       summary:
-        "โปรเจกต์เว็บ Game Shop ที่พัฒนาโดยใช้ Angular สำหรับ frontend และ Node.js กับ MySQL สำหรับ backend ",
+        "โปรเจกต์เว็บ Game Shop ที่พัฒนาโดยใช้ Angular สำหรับ frontend และ Node.js กับ MySQL สำหรับ backend เป็นโปรเจกต์ใรายวิชาการพัฒนาและจัดการเว็บขั้นสูง",
       tech: ["Angular", "Node.js", "MySQL"],
-      image: "assets/img/GameShop.png",
+      image: "assets/img/gameshop.png",
       demoUrl: "https://gameshopv2.netlify.app",
-      repoUrl: "https://github.com/YupharatK/Game-Shop.git",
+      repoUrls: [
+  { label: "GitHub Frontend", url: "https://github.com/YupharatK/Game-Shop.git" },
+  { label: "GitHub Backend", url: "https://github.com/YupharatK/GameShop-Backend.git" }
+],
       imageAlt: "ภาพหน้าจอโปรเจกต์ Game Shop"
+    },
+    {
+      category: "ผลงานในชั้นเรียน",
+      track: "Frontend",
+      title: "imdb website",
+      summary:
+        "โปรเจกต์เว็บดูหนังที่พัฒนาโดยใช้ React และ Node.js เป็น backend โดยโปรเจกต์นี้เป็นส่วนหนึ่งของรายวิชาการพัฒนาเว็บขั้นสูง โดยดิฉันได้รับหน้าที่เขียนส่วนของ frontend",
+      tech: ["React", "Node.js"],
+      image: "assets/img/imdb.png",
+      demoUrl: "https://movieimdbs.netlify.app/",
+      repoUrl: "https://github.com/YupharatK/Movie.git",
+      imageAlt: "ภาพตัวอย่างโปรเจกต์ 3"
     },
     {
       category: "ผลงานในชั้นเรียน",
@@ -67,10 +82,35 @@ window.siteContent = {
       title: "Pizza Shop",
       summary:
         "พัฒนาเว็บสั่งพิซซ่าสำหรับงานกลุ่มในรายวิชา",
-      tech: ["HTML", "CSS Grid", "Vanilla JS", "LocalStorage"],
+      tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
       image: "assets/img/pizzashop.png",
       repoUrl: "https://github.com/yourusername/project-2",
       imageAlt: "ภาพตัวอย่างโปรเจกต์ 2"
+    },
+    {
+      category: "ผลงานในชั้นเรียน",
+      track: "Backend",
+      title: "Lotto Application",
+      summary:
+        "โปรเจกต์แอปพลิเคชันล็อตโต้ที่พัฒนาโดยใช้ Futter และ Node.js เป็น backend โดยโปรเจกต์นี้เป็นส่วนหนึ่งของรายวิชาการพัฒนาโปรแกรมประยุกต์บนอุปกรณ์พกพา โดยดิฉันได้รับหน้าที่เขียนส่วนของ backend",
+      tech: ["Flutter", "Node.js"],
+      image: "assets/img/lotto.png",
+      repoUrl: "https://github.com/YupharatK/my-lotto-api.git",
+      imageAlt: "ภาพตัวอย่างโปรเจกต์ 3"
+    },
+     {
+      category: "ผลงานในชั้นเรียน",
+      track: "Fullstack",
+      title: "Delivery Application",
+      summary:
+        "โปรเจกต์แอปพลิเคชันสั่งอาหารออนไลน์ที่พัฒนาโดยใช้ Flutter และ Node.js เป็น backend โดยโปรเจกต์นี้เป็นส่วนหนึ่งของรายวิชาการพัฒนาโปรแกรมประยุกต์บนอุปกรณ์พกพา โดยดิฉันได้รับหน้าที่เขียนส่วนของ backend",
+      tech: ["Flutter", "Node.js"],
+      image: "assets/img/delivery.png",
+      repoUrls: [
+  { label: "GitHub Frontend", url: "https://github.com/YupharatK/Move_delivery.git" },
+  { label: "GitHub Backend", url: "https://github.com/YupharatK/Move_delivery_back-end.git" }
+],
+      imageAlt: "ภาพตัวอย่างโปรเจกต์ 3"
     },
     {
       category: "ผลงานที่ฝึกเขียน",
@@ -78,7 +118,7 @@ window.siteContent = {
       title: "Landing Page ฝึกเขียนโค้ด",
       summary:
         "ฝึกแปลงดีไซน์จากไฟล์อ้างอิงให้เป็นเว็บจริง โดยเน้นโครงสร้าง semantic และ animation ที่ลื่นไหล",
-      tech: ["Semantic HTML", "CSS", "JavaScript", "GSAP"],
+      tech: ["Node.js", "mySQL"],
       image: "assets/img/placeholder-project.svg",
       demoUrl: "https://example.com/demo-3",
       repoUrl: "https://github.com/yourusername/project-3",

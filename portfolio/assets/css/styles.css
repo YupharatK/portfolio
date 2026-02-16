@@ -1202,6 +1202,10 @@ body.intro-complete .site-footer {
   gap: 0.55rem;
 }
 
+.project-links.is-single {
+  grid-template-columns: 1fr;
+}
+
 .project-btn {
   display: inline-flex;
   align-items: center;
