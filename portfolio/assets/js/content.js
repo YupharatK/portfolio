@@ -69,8 +69,8 @@ window.siteContent = {
       track: "Frontend",
       title: "imdb website",
       summary:
-        "โปรเจกต์เว็บดูหนังที่พัฒนาโดยใช้ React และ Node.js เป็น backend โดยโปรเจกต์นี้เป็นส่วนหนึ่งของรายวิชาการพัฒนาเว็บขั้นสูง โดยดิฉันได้รับหน้าที่เขียนส่วนของ frontend",
-      tech: ["React", "Node.js"],
+        "โปรเจกต์เว็บค้นหารายชื่อหนังที่พัฒนาโดยใช้ Angular และเชื่อม API จาก imdb โดยจะดึงข้อมูลจาก API มาใช้ในการค้นหาและแสดงรายละเอียดของหนัง โปรเจกต์นี้เป็นส่วนหนึ่งของรายวิชาการพัฒนาเว็บขั้นสูง",
+      tech: ["Angular", "API"],
       image: "assets/img/imdb.png",
       demoUrl: "https://movieimdbs.netlify.app/",
       repoUrl: "https://github.com/YupharatK/Movie.git",

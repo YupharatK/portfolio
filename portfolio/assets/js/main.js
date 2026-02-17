@@ -90,7 +90,7 @@
     }
 
     renderEducation(data.education || [], aboutEducationList);
-    renderSimpleList(data.technicalSkills || data.traits || [], aboutTechnicalList);
+    renderChipList(data.technicalSkills || data.traits || [], aboutTechnicalList);
     renderChipList(data.toolsTechnologies || data.languages || [], aboutToolsTechList);
     renderDropTags(data.dropTags || [], aboutDropTags);
   }
