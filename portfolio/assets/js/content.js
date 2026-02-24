@@ -31,6 +31,7 @@ window.siteContent = {
       "HTML5(พื้นฐาน)",
       "CSS(พื้นฐาน)",
       "JavaScript(พื้นฐาน)",
+      "TypeScript(พื้นฐาน)",
       "Angular(พื้นฐาน)",
       "React(พื้นฐาน)",
       "Flutter(พื้นฐาน)",
@@ -122,6 +123,22 @@ window.siteContent = {
       image: "assets/img/f.png",
       demoUrl: "https://flashcardv1.netlify.app/",
       repoUrl: "https://github.com/YupharatK/flashcard.git",
+      imageAlt: "ภาพตัวอย่างโปรเจกต์ 4"
+    },
+
+     {
+      category: "ผลงานที่ฝึกเขียน",
+      track: "Fullstack",
+      title: "CheckIt",
+      summary:
+        "เว็บแอปพลิเคชันจัดการงาน ชื่อ CheckIt ที่พัฒนาเป็น Frontend สําหรับเชื่อมต่อกับ REST API เพื่อให้ผู้ใช้สามารถจัดการงานได้ครบวงจรในหน้าจอเดียว ตั้งแต่ การสมัครสมาชิก/เข้าสู่ระบบ ไปจนถึงการสร้าง แก้ไข ลบ และติดตามสถานะงานในแต่ละวัน ระบบรองรับการกําหนดสถานะงาน ",
+      tech: ["React", "Node.js", "MySQL"],
+      image: "assets/img/checkit.png",
+      demoUrl: "https://todolist-ui-neon.vercel.app/login",
+      repoUrls: [
+  { label: "GitHub Frontend", url: "https://github.com/YupharatK/todolist-ui.git" },
+  { label: "GitHub Backend", url: "https://github.com/YupharatK/todolist-api.git" }
+],
       imageAlt: "ภาพตัวอย่างโปรเจกต์ 4"
     }
   ],
